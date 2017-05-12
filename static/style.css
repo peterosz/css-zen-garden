@@ -24,12 +24,12 @@ h1 {
     color: #A97D5D;
     font-size: 2em;
     margin: 0;
-    margin-bottom: 7px;
-    padding: 4px;
     font-style: italic;
     font-weight: bold;
     text-align: center;
     letter-spacing: 0.1em;
+    border-bottom: 4px solid;
+    border-color: #9C9F84;
 }
 
 h2 {
@@ -61,7 +61,6 @@ p {
 footer {
     float: left;
     margin-top: 30px;
-    text-align: justify;
     width: 60%
 }
 
@@ -71,7 +70,15 @@ footer {
 
 #zen-summary {
     width:50%;
-    text-align: left;
+    text-align: justified;
+    margin: 0px auto;
+    margin-top: 14px;
+    padding: 1px 10px 1px 10px;
+    
+}
+#zen-summary p:last-child{
+    width:100%;
+    text-align: justified;
     margin: 0px auto;
     margin-top: 14px;
     border: 4px;
@@ -115,7 +122,7 @@ footer {
     background-color: #F7DCB4;
     border-radius: 16px;
     padding: 20px;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 30px;
 } 
 
@@ -125,7 +132,7 @@ footer {
     background-color: #F7DCB4;
     border-radius: 16px;
     padding: 20px;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-left: 10px;
 } 
 
@@ -135,7 +142,7 @@ footer {
     background-color: #F7DCB4;
     border-radius: 16px;
     padding: 20px;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-left: 10px;
 }
 
