@@ -34,7 +34,6 @@ h1 {
 
 h2 {
     color: #9C9F84;
-    background-color: #A97D5D;
     font-size: 1.5em;
     margin: 0;
     padding: 2px;
@@ -59,28 +58,84 @@ p {
     position: relative;
 }
 
-footer
+footer {
+    float: left;
+    margin-top: 30px;
+    text-align: justify;
+    width: 60%
+}
+
 #zen-intro {
     text-align: center;
 }
+
 #zen-summary {
-    width:40%;
+    width:50%;
+    text-align: left;
     margin: 0px auto;
     margin-top: 14px;
-    border: 4px solid;
-    border-color: #9C9F84;
+    border: 4px;
     border-radius: 8px;
-    padding: 10px 10px 10px 10px;
+    padding: 1px 10px 1px 10px;
+    background-color: #A97D5D;
 }
+
 #zen-preamble {
     float: left;
+    width:50%;
+    margin: 0px auto;
+    margin-top: 14px;
+    padding: 10px 10px 10px 10px;
+    text-align: left;
+}
+
+#zen-explanation {
+    float: right;
     width:40%;
     margin: 0px auto;
     margin-top: 14px;
+    padding: 10px 10px 10px 10px;
     border: 4px solid;
-    border-color: #9C9F84;
     border-radius: 8px;
+    border-color:#9C9F84;
+    text-align: justify;
+}
+
+#zen-participation {
+    float: center;
+    width: 100%;
+    margin: 0px auto;
+    margin-top: 14px;
     padding: 10px 10px 10px 10px;
 }
-#design-selection
+
+#design-selection {
+    float:left;
+    width: 40%;
+    background-color: #F7DCB4;
+    border-radius: 16px;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+} 
+
+#design-archives {
+    float:left;
+    width: 23%;
+    background-color: #F7DCB4;
+    border-radius: 16px;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 10px;
+} 
+
+#zen-resources {
+    float:left;
+    width: 22%;
+    background-color: #F7DCB4;
+    border-radius: 16px;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
 
