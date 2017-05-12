@@ -1,0 +1,86 @@
+body {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+    margin: 0px auto;
+    margin-top: 30px;
+    padding: 20px;
+    width: 1000px;
+    background-image: url(woodland.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.page-wrapper {
+    background-color: #F7DCB4;
+    border-radius: 16px;
+    padding: 20px;
+
+}
+p {
+    line-height: 21px;
+}
+
+h1 {
+    color: #A97D5D;
+    font-size: 2em;
+    margin: 0;
+    margin-bottom: 7px;
+    padding: 4px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
+h2 {
+    color: #9C9F84;
+    background-color: #A97D5D;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 2px;
+    padding-left: 14px;
+    text-align: center;
+}
+
+h3 {
+    color: #A97D5D;
+    font-size: 1.25em;
+}
+
+a {
+    text-decoration: none;
+    color: #9C9F84;
+}
+a:hover { 
+    text-decoration: underline;
+ }
+
+p {
+    position: relative;
+}
+
+footer
+#zen-intro {
+    text-align: center;
+}
+#zen-summary {
+    width:40%;
+    margin: 0px auto;
+    margin-top: 14px;
+    border: 4px solid;
+    border-color: #9C9F84;
+    border-radius: 8px;
+    padding: 10px 10px 10px 10px;
+}
+#zen-preamble {
+    float: left;
+    width:40%;
+    margin: 0px auto;
+    margin-top: 14px;
+    border: 4px solid;
+    border-color: #9C9F84;
+    border-radius: 8px;
+    padding: 10px 10px 10px 10px;
+}
+#design-selection
+
